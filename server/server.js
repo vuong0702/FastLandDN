@@ -14,7 +14,14 @@ const staffRoutes = require('./routes/staffRoutes');
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: [
+    'https://fast-land-dn.vercel.app', // domain frontend trên Vercel
+    'http://localhost:3000'            // cho phép khi chạy local
+  ],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
