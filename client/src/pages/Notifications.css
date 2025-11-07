@@ -1,0 +1,26 @@
+.notifications-page {
+  padding: 24px;
+}
+
+.page-header h1 {
+  margin: 0 0 8px 0;
+  color: #1f2937;
+}
+
+.page-header p {
+  margin: 0 0 16px 0;
+  color: #4b5563;
+}
+
+.notifications-list {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #e6eef6;
+}
+
+.empty-state {
+  color: #6b7280;
+  padding: 40px 0;
+  text-align: center;
+}

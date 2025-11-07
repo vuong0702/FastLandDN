@@ -1,0 +1,26 @@
+/* Minimal styles for EditPost page to fix missing import error */
+
+.edit-post-container {
+  padding: 16px;
+}
+
+.edit-post-form {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.image-preview {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.button {
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
